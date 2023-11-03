@@ -79,7 +79,7 @@ all_addresses = addresses + community + neighbourhood + river + lake
 
 all_addresses_mod =[each + " Manitoba" for each in all_addresses]
 for each in all_addresses_mod:
-    params.append({'sensor': 'false', 'address': str(each),"components":"country:Canada",'key':'AIzaSyDn1ASa287uH-SnZw1AgbFz5s_4IZQS7zM'})
+    params.append({'sensor': 'false', 'address': str(each),"components":"country:Canada",'key':''})
 
     
 
